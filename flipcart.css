@@ -1,0 +1,89 @@
+*{
+	margin: 0%;
+	padding: 0%;
+	font-family: 'mukta','sans-serif;';
+
+}
+nav{
+ display: flex;
+ background-color: rgb(21,90,252);
+ color: white;
+ width: 100%;
+ height: 55px;
+}
+nav.logo img{
+	margin-left: 60%;
+	margin-top: 2%;
+	width: 20%;
+
+}
+.logo p{
+	margin-left: 56%;
+}
+.logo p span{
+	color: rgb(255,191,0);
+
+
+}
+nav input{
+	width: 30%;
+	height: 18px;
+	padding: 10px;
+	outline: none;
+	border: none;
+	margin-top: 12px;
+	border: 2px;
+	font-size: 15px;
+	font-family: 'mulish',sans-serif;
+}
+nav i{
+	margin-top: 19px;
+	margin-left: -25px;
+	color: rgb(16,36,255);
+	font-size: 16px;
+}
+nav ul li a:hover{
+ border-bottom: 2px solid white;
+ color: white;
+ curser:pointer;
+ float: left;
+}
+ul{
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+	list-style: none;
+	padding: 10px;
+	font-size: 22px;
+	list-style: none;
+	margin-top: 3px;
+	margin-left: 10px;
+
+}
+ul li a{
+	margin-inline: 25px;
+	font-size: 18px;
+	list-style: none;
+	margin-top: 12px;
+	list-style: none;
+}
+ul li a:hover{
+	color: gray;
+	cursor: pointer;
+}
+img{
+	width: 100%;
+}
+.container{
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+	margin-top: 20px;
+}
+.container card img{
+	width: 80%
+}
+.card p{
+	font-size: 22px;
+	text-align: center;
+}
